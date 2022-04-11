@@ -5,10 +5,10 @@
   "main": "./lib/index.cjs.js",
   "module": "./lib/index.esm.js",
   "browser": "./lib/index.umd.js",
-  "types": "./lib/typing/index.d.ts",
+  "types": "./lib/types/index.d.ts",
   "scripts": {
     "dev": "rollup -w -c scripts/config.js",
-    "build": "rollup -c scripts/config.js",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

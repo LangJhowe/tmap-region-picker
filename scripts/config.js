@@ -11,12 +11,16 @@ module.exports = {
       name: 'tmap-region-picker',
       file: pkg.browser,
       format: 'umd',
-
     },
     {
       name: 'tmap-region-picker',
       file: pkg.main,
       format: 'cjs',
+    },
+    {
+      name: 'tmap-region-picker',
+      file: pkg.module,
+      format: 'esm',
     },
   ],
   plugins: [

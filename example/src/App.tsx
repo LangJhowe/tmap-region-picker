@@ -1,11 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Button from 'tmap-region-picker'
-import T from '@/components/index'
+import * as t from 'tmap-region-picker'
+
+const { Button } = t
 function App() {
-  // console.log('%c 🍡 SayHello: ', 'font-size:20px;background-color: #B03734;color:#fff;', SayHello);
-  console.log(Button);
+  console.log(t);
   
   return (
     <div className="App">
@@ -22,7 +22,7 @@ function App() {
         >
           Learn React
         </a>
-        <T></T>
+        <Button></Button>
       </header>
     </div>
   );

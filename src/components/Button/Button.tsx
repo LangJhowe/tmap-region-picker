@@ -1,8 +1,10 @@
 import React from 'react';
-import { ButtonProps } from './Button.types'
+import { ButtonProps } from './Button.types';
 const Button: React.FC<ButtonProps> = (props) =>{
   return (
-    <button>b</button>
+    <button>
+      12344
+    </button>
   )
 }
 export default Button
