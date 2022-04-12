@@ -1,8 +1,7 @@
 import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
-import { Button } from 'tmap-region-picker'
-import 'tmap-region-picker/lib/index.cjs.css'
+import { Picker } from 'tmap-region-picker'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -39,7 +38,11 @@ function App() {
             Vite Docs
           </a>
         </p>
-        <Button></Button>
+        <Picker config={{
+          v: '4.0',
+          tk: 'd97ee4980a986e7d0c4f0a8c8f103a94',
+          plugins: []
+        }}></Picker>
       </header>
     </div>
   )
